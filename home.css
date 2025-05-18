@@ -1,0 +1,20 @@
+h1 {
+    font-size: 100px;
+}
+
+body {
+    background-color: red;
+    color: white;
+}
+
+a {
+    color:aliceblue;
+}
+
+a:visited {
+    color: bisque;
+}
+
+a:hover, a:active {
+    color: purple;
+}

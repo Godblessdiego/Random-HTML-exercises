@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="A collection of recommended books">
+  <meta name="author" content="Book Enthusiast">
+  <link rel="stylesheet" href="home.css">
+  <title>Book Collection</title>
+</head>
+<body>
+<header>
+  
+  <h1>This is a heading</h1>
+  <!-- The aria-label helps screen readers describe this navigation menu to visually impaired users -->
+  <nav aria-label="primrary-navigation" id="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Main content section containing book categories -->
+  <section class="featured-books">
+    <h2>Featured Books</h2>
+    <!-- Article represents a self-contained book entry -->
+    <article class="book">
+      <h3>The Great Gatsby</h3>
+      <p>By F. Scott Fitzgerald</p>
+      <!-- Figure element used for book cover image and caption -->
+      <figure>
+        <img src="gatsby-cover.jpg" alt="The Great Gatsby book cover">
+        <figcaption>First edition cover art</figcaption>
+      </figure>
+      <!-- Aside for additional book information -->
+      <aside>
+        <h4>Quick Facts</h4>
+        <ul>
+          <li>Published: 1925</li>
+          <li>Genre: Literary Fiction</li>
+          <li>Pages: 180</li>
+        </ul>
+      </aside>
+    </article>
+  </section>
+
+  <!-- Section for book reviews -->
+  <section class="book-reviews">
+    <h2>Reader Reviews</h2>
+    <!-- Article containing a single review -->
+    <article class="review">
+      <h3>Outstanding Classic</h3>
+      <blockquote>
+        <p>A masterpiece of American literature that captures the essence of the Jazz Age.</p>
+        <footer>
+          <cite>- John Reader</cite>
+        </footer>
+      </blockquote>
+      <aside>
+        <!-- Details and summary element work together, used for additional review information -->
+        <details>
+          <summary><mark>Read more</mark></summary>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, consequatur.</p>
+        </details>
+        <p>Also you must know that the reviews start at <time datetime="08:00">8 am.</time></p>
+        <p>The next review will be in <time datetime="PTH3">3 hours</time></p>
+      </aside>
+    </article>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2018 Book Enthusiast</p>
+</footer>
+</body>
+</html>
